@@ -1,0 +1,84 @@
+﻿/* This is for header one, or The title of the page */
+h1 {
+    /*this code adds spacing to the h1 so that i can make it look cleaner*/
+    padding: 100px;
+    /* This changes the text to a differnt text for the website */
+    font-family: PMingLiU-ExtB;
+    /* This makes the text bigger for the website  */
+    font-size: 35px;
+    /* Creates a style for the border of the h1 */
+    border-style: inset;
+    /* gives it a green color in the style of The Gameboy*/
+    border-block-color: #283818;
+    /* This is a color of the Gameboy to the start of the border */
+    border-block-start-color: #607050;
+    /* These two lines of codes make the left and right borders 0 so there is no right or left */
+    border-right-width: 0px;
+    border-left-width: 0px;
+    /* makes the bottom border thicker as well as the top*/
+    border-bottom-width: medium;
+    border-top-width: thick;
+    /* Makes the text in the center of the page  */
+    text-align: center;
+    /* Sets the color of the text */
+    color: #283818;
+}
+
+/* h2 and h3 use the same code so i made them into one for ease of use */
+h2, h3 {
+    /* made the font the same as h1 */
+    font-family: PMingLiU-ExtB;
+    /* put a border around all h2 and h3 */
+    border-style: inset;
+    /* These two lines of codes make the left and right borders 0 so there is no right or left */
+    border-right-width: 0px;
+    border-left-width: 0px;
+    /* Change the color of the borders that are visible  */
+    border-block-color: #283818;
+    border-block-start-color: #607050;
+    /*made text color*/
+    color: #283818;
+}
+
+/* p doesn't get a border around it because its text */
+p {
+    /* Set the text a different text for ease of reading */
+    font-family: monospace;
+    /* set text color */
+    color: #283818;
+    /* a Shadow is added so its easier to read*/
+    text-shadow: 1px 1px 3px #607050;
+    /* added some flare to the words to give the space and style */
+    text-emphasis-color: #607050;
+    text-emphasis-style: filled;
+}
+a:hover {
+    /* added a hover event to change the text color*/
+    color: crimson;
+}
+
+a:visited {
+    /* click links are different colors*/
+    color: #889878;
+}
+
+body {
+    /*make the body of the page have a border*/
+    border: inset;
+    /* Make the top and left side of the border have the same color*/
+    border-left-color: #283818;
+    border-top-color: #283818;
+    /* get rid of the right border*/
+    border-right-width: 0px;
+    /*Add padding to give the border more space and to add some style to the page */
+    padding-left: 60px;
+    /* give the top of the page more padding */
+    padding-block-start: 6px;
+    /* color of the background of the page. it is the background of Gameboy*/
+    background-color: #b0c0a0;
+    /* basically make a box of the padded area so that i can give a little more style to my page*/
+    background-clip: padding-box;
+    box-shadow: inset 50px 10px 0px #283818;
+}
+
+
